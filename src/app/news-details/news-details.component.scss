@@ -1,0 +1,101 @@
+.hero .date {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+}
+
+.H1 {
+  font-family: "OPTIwtcGoudy-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 78px;
+}
+.hero {
+  background-image: url("../../assets/imgs/news hero.png");
+  background-size: cover;
+  background-position: center;
+}
+.tag {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  background: #00cbf4;
+  padding: 4px 10px;
+  position: relative;
+  top: -2px;
+}
+.readmore {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  color: #00cbf4;
+}
+.readmore i {
+  font-size: 17px;
+}
+
+.wrap {
+  background-color: #111114;
+}
+
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: justify;
+  color: #d9d9d9;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+.newsgrid img {
+  width: 100%;
+  display: block;
+}
+
+/////////////////////////////
+//FAQ CSS
+.FAQ {
+  max-width: 768px;
+}
+.FAQ .H1 {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 73px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.FAQ .head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 24px 0;
+  width: 100%;
+}
+.FAQ .p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.66);
+}
+.FAQ .accitem {
+  border-bottom: 1px solid #545454;
+}

@@ -8,9 +8,11 @@ import { NewsComponent } from './news/news.component';
 import { AMAComponent } from './ama/ama.component';
 import { AmaCardComponent } from './ama-card/ama-card.component';
 import { AmaDetailsComponent } from './ama-details/ama-details.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NewsComponent, AMAComponent, AmaCardComponent, AmaDetailsComponent],
+  declarations: [AppComponent, HomeComponent, NewsComponent, AMAComponent, AmaCardComponent, AmaDetailsComponent, NewsDetailsComponent, FaqComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

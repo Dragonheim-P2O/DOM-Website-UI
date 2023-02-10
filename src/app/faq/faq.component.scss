@@ -1,0 +1,44 @@
+.FAQ {
+  max-width: 768px;
+}
+.FAQ .H1 {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 73px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.FAQ .head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 24px 0;
+  width: 100%;
+}
+.FAQ .p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.66);
+}
+.FAQ .accitem {
+  border-bottom: 1px solid #545454;
+}
+
+.FAQ .accbody {
+  padding-bottom: 32px;
+}
+.FAQ .minus.rotate-180 {
+  display: none !important;
+}
+.FAQ .plus {
+  display: none;
+}
