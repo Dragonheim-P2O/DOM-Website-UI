@@ -1,0 +1,162 @@
+.main {
+  background-image: url(../../assets/imgs/ama-details.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.H1 {
+  font-family: "OPTIwtcGoudy-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 78px;
+  color: #ffffff;
+}
+.sidebar {
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 28px 30px;
+  margin-bottom: 8px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.sidebar .title {
+  background: linear-gradient(90deg, #ffdb76 0.01%, #ffaa4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+.gem {
+  width: 20px;
+  margin-right: 10px;
+}
+.chapters {
+  padding: 0 20px;
+  background: #161616;
+  border-radius: 10px;
+
+  position: relative !important;
+  inset: auto !important;
+  margin: 0px !important;
+  margin-top: 20px !important;
+  transform: translate(0) !important;
+}
+.chapter {
+  padding: 10px 0;
+  border-bottom: 1px solid #3c3c3c;
+}
+.chapter:last-of-type {
+  border-bottom: none;
+}
+.chapter.active h4 {
+  background: linear-gradient(90deg, #ffdb76 0.01%, #ffaa4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.chapter h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.chapter p {
+  margin-top: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.chapter.active p {
+  color: #ffffff;
+}
+
+///////////////////////////
+.description-wrap {
+  background: rgba(17, 17, 17, 0.46);
+  border: 1px solid #414141;
+  backdrop-filter: blur(17px);
+  border-radius: 10px;
+  //   padding: 49px 64px;
+}
+.description-wrap H1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.description-wrap H2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px;
+  background: linear-gradient(90deg, #ffdb76 0.01%, #ffaa4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.description-wrap .info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: justify;
+  color: #d9d9d9;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+.description-wrap .CTA {
+  background: linear-gradient(90deg, #ffdb76 0.01%, #ffaa4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.divider {
+  margin: 40px 0;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 43px;
+}
+.divider div {
+  border: 1px solid #383838;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.divider span {
+  position: absolute;
+  width: 100%;
+  height: 43px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+}
+.divider-red span {
+  background-image: url("../../assets/imgs/divider\ red.png");
+}
+.divider-blue span {
+  background-image: url("../../assets/imgs/divider\ blue.png");
+}

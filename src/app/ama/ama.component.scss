@@ -1,0 +1,147 @@
+.herobox {
+  grid-template-areas: ". a .";
+}
+.herocol {
+  grid-area: a;
+}
+.H1 {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 73px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #d9d9d9;
+}
+.hero {
+  background-image: url("../../assets/imgs/ama hero.png");
+  background-size: cover;
+  background-position: 35% center;
+}
+.heroinfo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 43px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+.CTA {
+  background-color: #111114;
+  border: 1.22776px solid #17a8bf;
+  border-radius: 8.59433px;
+  padding: 12px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  min-width: 266px;
+  height: 59px;
+}
+.CTA img {
+  max-height: 34px;
+}
+.CTA-light {
+  background: linear-gradient(180deg, #227f9e 0%, #14b6c9 100%);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+//////////////
+.cards-wrap {
+  background-color: #111114;
+}
+.card {
+  background: #232323;
+  border-radius: 10px;
+}
+.cardinfo {
+  padding: 22px 27px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+.card .tag {
+  border-radius: 44px;
+  padding: 7px 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-left: 7px;
+}
+.card .tag.yellow {
+  background: #f59e0b;
+}
+.card .tag.green {
+  background: #22c55e;
+}
+.card .currency img {
+  width: 75px;
+}
+.carddescription {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #cccccc;
+}
+.divider {
+  border: 1px solid #454545;
+}
+.saleinfo {
+  max-width: 50%;
+}
+.saleinfo img {
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  margin-right: 10.7px;
+}
+.saleinfo h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.saleinfo h4.date {
+  color: #9f9f9f;
+}
+.cardsocials {
+  min-width: 160px;
+}
+.cardsocials a {
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 5px;
+}
+.cardsocials a {
+  width: 30px;
+  height: 30px !important;
+}

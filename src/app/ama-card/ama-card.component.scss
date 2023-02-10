@@ -1,0 +1,91 @@
+.card {
+  background: #232323;
+  border-radius: 10px;
+}
+.cardinfo {
+  padding: 22px 27px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+.card .tag {
+  border-radius: 44px;
+  padding: 7px 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-left: 7px;
+}
+.card .tag.yellow {
+  background: #f59e0b;
+}
+.card .tag.green {
+  background: #22c55e;
+}
+.card .currency img {
+  width: 75px;
+}
+.carddescription {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #cccccc;
+}
+.divider {
+  border: 1px solid #454545;
+}
+.saleinfo {
+  max-width: 50%;
+}
+.saleinfo img {
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  margin-right: 10.7px;
+}
+.saleinfo h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.saleinfo h4.date {
+  color: #9f9f9f;
+}
+.cardsocials {
+  min-width: 160px;
+}
+.cardsocials a {
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 5px;
+}
+.cardsocials a {
+  width: 30px;
+  height: 30px !important;
+}

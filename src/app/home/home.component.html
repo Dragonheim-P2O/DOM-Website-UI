@@ -1,0 +1,108 @@
+<div class="main flex justify-center items-center" style="padding: 127xp 0">
+  <div class="w-100 flex flex-col innerSection justify-between text-center">
+    <nav
+      class="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-transparent w-screen"
+    >
+      <div class="flex flex-wrap items-center justify-between mx-auto">
+        <a href="/" class="flex items-center">
+          <img src="assets/imgs/logo.png" class="logo" />
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-6 h-6"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="hidden socials mx-auto md:mx-0 md:flex items-center justify-center w-100 flex-col md:flex-row"
+          id="navbar-default"
+        >
+          <div class="flex my-4 justify-center flex-row">
+            <a href="#">
+              <img src="assets/imgs/twitter.png" />
+            </a>
+            <a href="#">
+              <img src="assets/imgs/youtube.png" />
+            </a>
+            <a href="#">
+              <img src="assets/imgs/discord.png" />
+            </a>
+            <a href="#">
+              <img src="assets/imgs/telegram.png" />
+            </a>
+          </div>
+          <a href="#" class="playbtn mt-4 mx-auto">
+            <img src="assets/imgs/playbtn.png" class="mx-auto" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="flex justify-center items-center">
+      <img class="bird" src="assets/imgs/bird1.png" />
+      <span class="text" style="padding: 0 22px">Coming Soon</span>
+      <img src="assets/imgs/bird2.png" />
+    </div>
+    <div class="space text-center">
+      <img
+        class="playicon mx-auto"
+        data-modal-target="defaultModal"
+        data-modal-toggle="defaultModal"
+        src="assets/imgs/play icon.png"
+      />
+    </div>
+
+    <div class="buttons space">
+      <a href="/ama" class="btn1 my-2"> <span>WHITE PAPER</span> </a>
+      <a class="btn2 my-2" href="/news">
+        <span>CHECK UPDATES</span>
+      </a>
+    </div>
+    <img src="assets/imgs/Frame.png" class="space frame mx-auto" />
+    <div class="logos flex flex-wrap justify-center items-center pb-3 mb-3">
+      <img src="assets/imgs/logos/logo6.png" />
+      <img src="assets/imgs/logos/logo5.png" />
+      <img src="assets/imgs/logos/logo4.png" />
+      <img src="assets/imgs/logos/logo8.png" />
+      <img src="assets/imgs/logos/logo7.png" />
+      <img src="assets/imgs/logos/logo3.png" />
+      <img src="assets/imgs/logos/logo2.png" />
+      <img src="assets/imgs/logos/logo1.png" />
+    </div>
+  </div>
+</div>
+
+<!-- Video modal -->
+<div
+  id="defaultModal"
+  data-modal-toggle="defaultModal"
+  data-modal-placement="center"
+  tabindex="-1"
+  aria-hidden="true"
+  class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
+>
+  <iframe
+    class="ytframe"
+    src="https://www.youtube-nocookie.com/embed/SkasWf8k864?controls=0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>

@@ -1,0 +1,137 @@
+.hero .date {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+}
+
+.H1 {
+  font-family: "OPTIwtcGoudy-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 78px;
+
+  /* or 108% */
+}
+.hero {
+  background-image: url("../../assets/imgs/news hero.png");
+  background-size: cover;
+  background-position: center;
+  // min-height: 50vh;
+}
+.tag {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  background: #00cbf4;
+  padding: 4px 10px;
+  position: relative;
+  top: -2px;
+}
+.readmore {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  color: #00cbf4;
+}
+.readmore i {
+  font-size: 17px;
+}
+.togglebtn {
+  background: #0f1119;
+  padding: 17px 0px;
+  color: white;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  width: 160px;
+}
+.togglebtn.active {
+  border-top: 3px solid #00cbf4;
+}
+
+.cards-wrap {
+  background-color: #111114;
+}
+
+////////////////////////////////////////////////////////////////////////
+/// cards css
+.H2 {
+  font-family: "OPTIwtcGoudy-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}
+.card {
+  height: 276px;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+}
+.cardinfo {
+  position: absolute;
+  max-width: 100%;
+  bottom: 41px;
+  left: 40px;
+}
+.card .date {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+////////////////////////////////////////////////////////////////////////
+/// news css
+
+.news {
+  background-color: #181818;
+  padding: 32px 58px;
+  border-radius: 10px;
+}
+.news .date {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.newsinfo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: justify;
+  color: #d9d9d9;
+  opacity: 0.9;
+}
+ul.newsinfo {
+  list-style-type: disc;
+}
+.H3 {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 78px;
+  color: #ffffff;
+}

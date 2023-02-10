@@ -1,0 +1,182 @@
+<div class="hero">
+  <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-transparent">
+    <div class="flex flex-wrap items-center justify-between mx-auto">
+      <a href="/" class="flex items-center">
+        <img src="assets/imgs/logo.png" class="logo" />
+      </a>
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-6 h-6"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+      <div
+        class="hidden socials mx-auto md:mx-0 md:flex items-center justify-center w-100 flex-col md:flex-row"
+        id="navbar-default"
+      >
+        <div class="flex my-4 justify-center flex-row">
+          <a href="#">
+            <img src="assets/imgs/twitter.png" />
+          </a>
+          <a href="#">
+            <img src="assets/imgs/youtube.png" />
+          </a>
+          <a href="#">
+            <img src="assets/imgs/discord.png" />
+          </a>
+          <a href="#">
+            <img src="assets/imgs/telegram.png" />
+          </a>
+        </div>
+        <a href="#" class="playbtn mt-4 mx-auto">
+          <img src="assets/imgs/playbtn.png" class="mx-auto" />
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="container mx-auto pt-32">
+    <div class="grid md:grid-cols-2">
+      <div class="text-white p-3">
+        <span class="date">
+          January 5, 2023 <span class="ml-3 tag">Features</span></span
+        >
+        <h1 class="H1">New Dragons & Territories</h1>
+        <div class="readmore mt-6">
+          <a href="/news"> Read more <i class="ml-1 fa fa-arrow-right"></i> </a>
+        </div>
+      </div>
+    </div>
+    <div class="buttons mt-24">
+      <button
+        class="togglebtn mr-4"
+        (click)="selection = false"
+        [ngClass]="!selection ? 'active' : ''"
+      >
+        Latest News
+      </button>
+      <button
+        class="togglebtn"
+        (click)="selection = true"
+        [ngClass]="selection ? 'active' : ''"
+      >
+        Updates
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="cards-wrap">
+  <div class="container mx-auto py-16 px-2">
+    <div
+      class="cards grid md:grid-cols-2"
+      [ngClass]="selection ? 'hidden' : ''"
+    >
+      <div
+        class="card m-3"
+        style="background-image: url(../../assets/imgs/card1.png)"
+      >
+        <div class="cardinfo">
+          <span class="date">January 5, 2023</span>
+          <h2 class="H2">New Dragons & Territories</h2>
+        </div>
+      </div>
+      <div
+        class="card m-3"
+        style="background-image: url(../../assets/imgs/card1.png)"
+      >
+        <div class="cardinfo">
+          <span class="date">January 5, 2023</span>
+          <h2 class="H2">New Dragons & Territories</h2>
+        </div>
+      </div>
+      <div
+        class="card m-3"
+        style="background-image: url(../../assets/imgs/card1.png)"
+      >
+        <div class="cardinfo">
+          <span class="date">January 5, 2023</span>
+          <h2 class="H2">New Dragons & Territories</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="allnews" [ngClass]="!selection ? 'hidden' : ''">
+      <div class="news mx-3 my-9">
+        <span class="date"
+          >January 5, 2023 <span class="tag ml-3"> Today</span></span
+        >
+        <h3 class="H3">Dragon of Midgard Update — 1/11/2023</h3>
+        <ul class="newsinfo">
+          <li>
+            Added role filters on the hero selection screen, allowing players to
+            drill down to the heroes that best fit the needs of each game.
+          </li>
+          <li>Removed Jungler from the list of hero roles.</li>
+          <li>
+            As part of our effort to keep <u>Dota Technology Moving Forward</u>
+            the version of the V8 JavaScript engine included in Dota has been
+            updated, resulting in a new macOS requirement of 10.13+. For the
+            vast majority of Mac players, this requirements change will have no
+            impact.
+          </li>
+        </ul>
+      </div>
+      <div class="news mx-3 my-9">
+        <span class="date"
+          >January 5, 2023 <span class="tag ml-3"> Today</span></span
+        >
+        <h3 class="H3">Dragon of Midgard Update — 1/11/2023</h3>
+        <ul class="newsinfo">
+          <li>
+            Added role filters on the hero selection screen, allowing players to
+            drill down to the heroes that best fit the needs of each game.
+          </li>
+          <li>Removed Jungler from the list of hero roles.</li>
+          <li>
+            As part of our effort to keep <u>Dota Technology Moving Forward</u>
+            the version of the V8 JavaScript engine included in Dota has been
+            updated, resulting in a new macOS requirement of 10.13+. For the
+            vast majority of Mac players, this requirements change will have no
+            impact.
+          </li>
+        </ul>
+      </div>
+      <div class="news mx-3 my-9">
+        <span class="date"
+          >January 5, 2023 <span class="tag ml-3"> Today</span></span
+        >
+        <h3 class="H3">Dragon of Midgard Update — 1/11/2023</h3>
+        <ul class="newsinfo">
+          <li>
+            Added role filters on the hero selection screen, allowing players to
+            drill down to the heroes that best fit the needs of each game.
+          </li>
+          <li>Removed Jungler from the list of hero roles.</li>
+          <li>
+            As part of our effort to keep <u>Dota Technology Moving Forward</u>
+            the version of the V8 JavaScript engine included in Dota has been
+            updated, resulting in a new macOS requirement of 10.13+. For the
+            vast majority of Mac players, this requirements change will have no
+            impact.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

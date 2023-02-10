@@ -1,0 +1,55 @@
+<div class="card m-3 grid md:grid-cols-12">
+  <img
+    src="../../assets/imgs/{{ cardData.img }}"
+    class="col-span-12 md:col-span-3"
+  />
+
+  <div class="cardinfo col-span-12 md:col-span-9">
+    <div class="cardhead flex items-center justify-between">
+      <h1>{{ cardData.name }}</h1>
+      <div>
+        <span class="tag yellow"> FEATURED </span>
+        <span class="tag green"> ACTIVE </span>
+      </div>
+    </div>
+    <div class="currency mt-3 flex">
+      <img src="../../assets/imgs/sol.png" class="mr-2" />
+      <img src="../../assets/imgs/eth.png" class="mr-2" />
+      <img src="../../assets/imgs/btc.png" class="mr-2" />
+    </div>
+    <p class="carddescription mt-4">
+      {{ cardData.description }}
+    </p>
+    <div class="divider my-4"></div>
+    <div class="cardfoot flex flex-wrap">
+      <div class="saleinfo md:mr-7 flex justify-center items-center">
+        <img src="../../assets/imgs/google cal.png" />
+        <div>
+          <h4>PRE SALE</h4>
+          <h4 class="date">Oct 20, 2022, 4:33:30 AM</h4>
+        </div>
+      </div>
+      <div class="saleinfo md:mr-7 flex justify-center items-center">
+        <img src="../../assets/imgs/google cal.png" />
+        <div>
+          <h4>PUBLIC SALE</h4>
+          <h4 class="date">Oct 20, 2022, 4:33:30 AM</h4>
+        </div>
+      </div>
+      <div class="cardsocials mx-auto md:mr-0 mt-5">
+        <a href="#">
+          <i class="fa fa-globe"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-discord"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

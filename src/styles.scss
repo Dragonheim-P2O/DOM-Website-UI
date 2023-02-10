@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.innercontainer {
+  max-width: 1100px !important;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@font-face {
+  font-family: "Industry";
+  src: url("./assets/imgs/Industry-Bold.ttf");
+}
+@font-face {
+  font-family: "OPTIwtcGoudy-Medium";
+  src: url(./assets/imgs/OPTIwtcGoudy-Medium.otf);
+}
+@font-face {
+  font-family: "HU The Game";
+  src: url("./assets/imgs/HU\ The\ Game.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+.playbtn {
+  width: 168.67px;
+  height: 47px;
+  object-fit: contain;
+  cursor: pointer;
+  display: block;
+}
+.logos img {
+  width: 250px;
+  height: 38px;
+  object-fit: contain;
+  margin: 25px 10px;
+}
+
+.header {
+  padding: 23px;
+}
+.socials img {
+  height: 36px;
+  margin: 0 8px;
+}
+.logo {
+  width: 232px;
+  max-width: 95%;
+  margin: auto;
+  object-fit: contain;
+}
