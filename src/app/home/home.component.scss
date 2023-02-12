@@ -136,3 +136,316 @@ a {
   max-width: 90vw;
   height: 70vh;
 }
+//////////////
+//roadmap
+
+.roadmap .title {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 73px;
+
+  /* identical to box height, or 109% */
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Style */
+  background: linear-gradient(
+    90deg,
+    #a28048 2%,
+    #fff0d0 25%,
+    #cab999 43%,
+    #ae9461 74%,
+    #bda672 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.roadmap {
+  background-image: url("../../assets/imgs/roadmap\ bg.png");
+  background-size: cover;
+  background-position: center;
+  // min-height: 100vh;
+}
+.roadmap .title-divider {
+  height: 26px;
+  width: 246px;
+  object-fit: contain;
+  object-position: center;
+}
+.line {
+  background-color: #383838;
+  z-index: 0;
+  top: 50%;
+}
+.milestone img {
+  height: 225px;
+  // min-width: 180px;
+  object-fit: contain;
+  object-position: bottom;
+  position: relative;
+  z-index: 2;
+}
+.roadmap .status {
+  background: linear-gradient(90deg, #548f00 0%, #136600 100%);
+  border-radius: 30px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.2803px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding: 10px 21px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.roadmap .space {
+  // margin-top: 225px !important;
+  padding: 0 !important;
+}
+.roadinfo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 26px;
+  color: white;
+}
+.roadslider {
+  position: relative;
+}
+.roadmap .timeline {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  // text-align: justify;
+  margin-top: 20px;
+  color: #af9562;
+}
+// .milestone:not(:first-of-type) .roadbox {
+// min-width: 362px;
+// margin-left: -100px;
+// }
+
+//////////////
+/// FAQ
+.faq {
+  background-image: url(../../assets/imgs/faqbg.png);
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+}
+
+//////////////
+/// Empowering
+.empowering {
+  background-image: url("../../assets/imgs/empowering\ bg.png");
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+}
+.empowering .title {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  max-width: 695px;
+  line-height: 55px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    #a28048 2%,
+    #fff0d0 25%,
+    #cab999 43%,
+    #ae9461 74%,
+    #bda672 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.empbox {
+  background-image: url("../../assets/imgs/empbox\ bg.png");
+  background-size: 130% 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #a28048;
+  border-radius: 12px;
+  max-width: 695px;
+  padding: 15px;
+}
+.empbox img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  // margin: -56px 0 -56px -56px;
+  margin-top: -56px;
+  margin-bottom: -56px;
+}
+.empbox .head {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+.empbox .text {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffff;
+  opacity: 0.7;
+  text-align: left;
+}
+
+/////////////////
+/// Gaming
+.gaming .title {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.pink {
+  color: #ea7af7;
+}
+.gaming {
+  background-image: url("../../assets/imgs/bggaming.png");
+  background-size: cover;
+  background-color: #000;
+  background-position: center;
+}
+
+.gaming .gbox > div {
+  border-radius: 12.0608px !important;
+  border: 1px solid #23c7f2;
+}
+
+.gaming .gbox > div {
+  background-image: url("../../assets/imgs/empbox\ bg.png");
+  background-size: 130% 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  // border: 1px solid #a28048;
+  border-radius: 12px;
+  max-width: 695px;
+  padding: 15px;
+}
+
+.gbox .head {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+.gbox .text {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffff;
+  opacity: 0.7;
+  text-align: left;
+}
+.gbox img {
+  width: 113px;
+  height: 123px;
+  object-fit: contain;
+  object-position: center;
+  // margin: -56px 0 -56px -56px;
+  margin-top: -56px;
+  margin-bottom: -56px;
+}
+
+/////////////////
+/// unique
+.unique {
+  background-image: url("../../assets/imgs/uniquebg.png");
+  background-size: cover;
+  background-color: #000;
+  background-position: center;
+}
+.unique .title {
+  font-family: "HU The Game";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.unique .btninfo {
+  background-image: url("../../assets/imgs/empbox\ bg.png");
+  background-size: 130% 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #a28048;
+  border-radius: 8px;
+  padding: 15px 21px;
+  max-width: 205px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.unique .btninfo .orb {
+  width: 27px;
+  height: 27px;
+}
+.swords li {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 54px;
+  color: #ffffff;
+  opacity: 0.96;
+  padding-left: 35px !important;
+  position: relative;
+}
+.swords li:before {
+  // content: url(../../assets/imgs/sword.png);
+  object-fit: contain;
+  content: "";
+  background-image: url(../../assets/imgs/sword.png);
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.sword .btn2 span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.349px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}

@@ -1,0 +1,138 @@
+a {
+  text-decoration: none !important;
+}
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("../../assets/imgs/bg-main.png");
+  background-size: cover;
+  mix-blend-mode: normal;
+  background-position: center bottom;
+}
+.bird {
+  height: 45px;
+}
+
+.text {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 48px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+.button {
+  height: 60px;
+  cursor: pointer;
+}
+
+.space {
+  padding: 25px 0;
+}
+.btn1 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 19px 79px 18px 77px;
+  display: inline-block;
+  text-align: center;
+  background-image: url("../../assets/imgs/btn1\ hover.png");
+}
+.btn1:hover {
+  background-image: url(../../assets/imgs/btn1.png);
+}
+.btn1 span {
+  font-family: "Industry";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    #a28048 2%,
+    #fff0d0 25%,
+    #cab999 43%,
+    #ae9461 74%,
+    #bda672 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.btn1:hover span {
+  background: none;
+  color: black;
+  text-fill-color: #000;
+  -webkit-text-fill-color: #000;
+}
+
+.btn2 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 19px 70px 18px 70px;
+  display: inline-block;
+  text-align: center;
+  background-image: url(../../assets/imgs/btn2.png);
+}
+.btn2:hover {
+  background-image: url("../../assets/imgs/btn2\ hover.png");
+}
+.btn2 span {
+  font-family: "Industry";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: black;
+}
+.btn2:hover span {
+  background: linear-gradient(
+    90deg,
+    #a28048 2%,
+    #fff0d0 25%,
+    #cab999 43%,
+    #ae9461 74%,
+    #bda672 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.logos img {
+  width: 250px;
+  height: 38px;
+  object-fit: contain;
+  margin: 25px 10px;
+}
+@media screen and (max-width: 2160px) {
+  .logos img {
+    width: 150px;
+  }
+}
+.innerSection {
+  min-height: 100vh;
+  /* max-height: 1200px; */
+}
+
+.playicon {
+  width: 136px;
+  height: 136px;
+  cursor: pointer;
+}
+.frame {
+  width: 390px;
+}
+.ytframe {
+  width: 1800px;
+  height: 900px;
+  max-width: 90vw;
+  height: 70vh;
+}

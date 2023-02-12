@@ -36,9 +36,12 @@
 .FAQ .accbody {
   padding-bottom: 32px;
 }
-.FAQ .minus.rotate-180 {
-  display: none !important;
+// .FAQ .minus.rotate-180 {
+//   display: none !important;
+// }
+.FAQ .accitem button[aria-expanded="true"] .plus {
+  display: none;
 }
-.FAQ .plus {
+.FAQ .accitem button[aria-expanded="false"] .minus {
   display: none;
 }

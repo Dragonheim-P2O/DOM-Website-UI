@@ -11,8 +11,106 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <style>
+      .roadslider .slick-track {
+        min-height: 423px;
+      }
+      .milestone {
+        margin-bottom: -25px !important;
+        /* margin-left: -30px; */
+      }
+      .milestone:first-of-type {
+        /* margin-left: 0 !important; */
+      }
+      .milestone.space {
+        margin-top: 197px !important;
+      }
+      .milestone.space img {
+        object-position: top !important;
+      }
+
+      .slick-arrow {
+        width: 47px;
+        height: 47px;
+        position: absolute;
+        top: 191px;
+        left: 0;
+        z-index: 1;
+        border-radius: 100px;
+        background-color: #171511;
+        cursor: pointer;
+      }
+      .slick-arrow.right {
+        left: auto;
+        right: 0;
+      }
+      @media screen and (min-width: 1550px) {
+        .milestone {
+          margin-right: -60px;
+        }
+      }
+    </style>
   </head>
   <body>
     <app-root></app-root>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".roadslider").slick({
+          arrows: true,
+          slidesToShow: 4,
+          infinite: true,
+          slidesToScroll: 2,
+          prevArrow: "<img class='left' src='./assets/imgs/arrowleft.png' />",
+          nextArrow: "<img class='right' src='./assets/imgs/arrowright.png' />",
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 640,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 1280,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 2,
+              },
+            },
+          ],
+        });
+      });
+    </script>
   </body>
 </html>
