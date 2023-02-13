@@ -11,6 +11,7 @@ import { AmaDetailsComponent } from "./ama-details/ama-details.component";
 import { NewsDetailsComponent } from "./news-details/news-details.component";
 import { FaqComponent } from "./faq/faq.component";
 import { HomeComponent } from "./home/home.component";
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HomeComponent } from "./home/home.component";
     AmaDetailsComponent,
     NewsDetailsComponent,
     FaqComponent,
+    TeamComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
