@@ -12,6 +12,7 @@ import { NewsDetailsComponent } from "./news-details/news-details.component";
 import { FaqComponent } from "./faq/faq.component";
 import { HomeComponent } from "./home/home.component";
 import { TeamComponent } from './team/team.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { TeamComponent } from './team/team.component';
     NewsDetailsComponent,
     FaqComponent,
     TeamComponent,
+    NavbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
