@@ -34,18 +34,20 @@
         object-position: top !important;
       }
 
-      .slick-arrow {
+      .roadslider .slick-arrow {
         width: 47px;
         height: 47px;
         position: absolute;
         top: 191px;
         left: 0;
+      }
+      .slick-arrow {
         z-index: 1;
         border-radius: 100px;
         background-color: #171511;
         cursor: pointer;
       }
-      .slick-arrow.right {
+      .roadslider .slick-arrow.right {
         left: auto;
         right: 0;
       }
@@ -106,6 +108,26 @@
               settings: {
                 slidesToShow: 4,
                 slidesToScroll: 2,
+              },
+            },
+          ],
+        });
+        $(".uniqueslider").slick({
+          arrows: true,
+          slidesToShow: 2,
+          infinite: true,
+          slidesToScroll: 1,
+          appendArrows: $(".uniquearrows"),
+          prevArrow:
+            "<img class='mx-4 left' src='./assets/imgs/arrowleft.png' />",
+          nextArrow:
+            "<img class='mx-4 right' src='./assets/imgs/arrowright.png' />",
+          responsive: [
+            {
+              breakpoint: 640,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
               },
             },
           ],

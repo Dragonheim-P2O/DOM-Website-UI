@@ -449,3 +449,51 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
+.uniqueslider .card {
+  height: 460px;
+  background-position: center;
+  background-size: cover;
+  padding: 31px;
+  border: 1.52px solid #243343;
+  border-radius: 13.7084px;
+  margin: 0 5px;
+  align-items: end;
+  display: flex !important;
+  // width: auto !important;
+  // max-width: 100%;
+}
+.unique .head {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.6089px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.unique .price img {
+  width: 28px;
+  height: 28px;
+}
+.unique .price .h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.unique .clockicon {
+  width: 12px;
+  height: 12px;
+}
+.unique .time {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 1px solid #cab99988;
+  padding: 5px 12px;
+  border-radius: 50px;
+}
