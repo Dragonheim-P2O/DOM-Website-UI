@@ -40,10 +40,11 @@ a {
   text-align: center;
   background-image: url("../../assets/imgs/btn1\ hover.png");
 }
-.btn1:hover {
-  background-image: url(../../assets/imgs/btn1.png);
-}
-.btn1 span {
+// .btn1:hover {
+//   background-image: url(../../assets/imgs/btn1.png);
+// }
+.btn1 span,
+.btn1 small {
   font-family: "Industry";
   font-style: normal;
   font-weight: 400;
@@ -63,12 +64,15 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
-.btn1:hover span {
-  background: none;
-  color: black;
-  text-fill-color: #000;
-  -webkit-text-fill-color: #000;
+.btn1 small {
+  font-size: 10px !important;
 }
+// .btn1:hover span {
+//   background: none;
+//   color: black;
+//   text-fill-color: #000;
+//   -webkit-text-fill-color: #000;
+// }
 
 .btn2 {
   background-size: contain;
