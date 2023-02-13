@@ -97,14 +97,18 @@
   aria-hidden="true"
   class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
 >
-  <iframe
-    class="ytframe"
-    src="https://www.youtube-nocookie.com/embed/SkasWf8k864?controls=0"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-  ></iframe>
+  <div class="relative">
+    <iframe
+      class="ytframe"
+      src="https://www.youtube-nocookie.com/embed/SkasWf8k864?controls=0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    >
+    </iframe>
+    <i class="fa fa-close z-40 closebtn"></i>
+  </div>
 </div>
 
 <!-- Roadmap -->
@@ -202,11 +206,6 @@
       </ol>
     </div>
   </div>
-</div>
-
-<!-- FAQ -->
-<div class="faq pt-28 pb-24">
-  <app-faq></app-faq>
 </div>
 
 <!-- empowering -->
@@ -438,4 +437,9 @@
       <div class="uniquearrows relative flex justify-center mt-7"></div>
     </div>
   </div>
+</div>
+
+<!-- FAQ -->
+<div class="faq pt-28 pb-24">
+  <app-faq></app-faq>
 </div>

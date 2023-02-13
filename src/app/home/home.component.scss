@@ -136,6 +136,19 @@ a {
   max-width: 90vw;
   height: 70vh;
 }
+.closebtn {
+  position: absolute;
+  top: -30px;
+  right: 0px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 9px;
+  border: 1px solid #d9c39a;
+  cursor: pointer;
+}
 //////////////
 //roadmap
 
