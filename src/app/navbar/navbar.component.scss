@@ -1,0 +1,21 @@
+a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  //   text-align: center;
+
+  color: #ffffff;
+}
+a:hover {
+  color: gold;
+}
+#dropdownNavbar {
+  left: 50% !important;
+  top: 29px !important;
+  transform: translate(-50%, 0) !important;
+  //   position: relative ;
+}
